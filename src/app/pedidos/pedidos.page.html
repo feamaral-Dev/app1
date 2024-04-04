@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Pedidos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="home">
+        <ion-icon name="home-outline" routerLink="/home"></ion-icon>
+        Início
+      </ion-tab-button>
+      <ion-tab-button tab="radio">
+        <ion-icon name="clipboard" routerLink="/pedidos"></ion-icon>
+        Pedidos
+      </ion-tab-button>
+      <ion-tab-button tab="library">
+        <ion-icon name="person-circle-outline" routerLink="/perfil"></ion-icon>
+        Perfil
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+</ion-content>
